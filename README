@@ -1,0 +1,110 @@
+NAME
+    Complete::Pod::Weaver - Complete with installed Pod::Weaver section
+    names
+
+VERSION
+    This document describes version 0.01 of Complete::Pod::Weaver (from Perl
+    distribution Complete-Pod-Weaver), released on 2014-12-28.
+
+SYNOPSIS
+FUNCTIONS
+  complete_weaver_bundle(%args) -> any
+    Complete with installed Pod::Weaver bundle names.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool*
+
+        Whether to do case-insensitive search.
+
+    *   exp_im_path => *bool*
+
+    *   map_case => *bool*
+
+    *   word* => *str*
+
+    Return value:
+
+     (any)
+
+  complete_weaver_plugin(%args) -> any
+    Complete with installed Pod::Weaver plugin names.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool*
+
+        Whether to do case-insensitive search.
+
+    *   exp_im_path => *bool*
+
+    *   map_case => *bool*
+
+    *   word* => *str*
+
+    Return value:
+
+     (any)
+
+  complete_weaver_role(%args) -> any
+    Complete with installed Pod::Weaver role names.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool*
+
+        Whether to do case-insensitive search.
+
+    *   exp_im_path => *bool*
+
+    *   map_case => *bool*
+
+    *   word* => *str*
+
+    Return value:
+
+     (any)
+
+  complete_weaver_section(%args) -> any
+    Complete with installed Pod::Weaver section names.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool*
+
+        Whether to do case-insensitive search.
+
+    *   exp_im_path => *bool*
+
+    *   map_case => *bool*
+
+    *   word* => *str*
+
+    Return value:
+
+     (any)
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Complete-Pod-Weaver>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/perlancar/perl-Complete-Pod-Weaver>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Complete-Pod-Weaver>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    perlancar <perlancar@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by perlancar@cpan.org.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
